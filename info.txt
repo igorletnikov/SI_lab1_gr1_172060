@@ -6,7 +6,6 @@ cd ../SI_lab1_gr1_172060
 git remote remove origin
 git branch -a (proveruvame dali e izbrisano)
 
-
 5,6,7.
 git clone https://github.com/igorletnikov/SI_lab1_gr1_172060
 
@@ -65,3 +64,56 @@ touch info.txt
 git add info.txt
 git commit "documentation added"
 git push
+
+
+
+
+$ git log
+commit 3a5a7b99a883cbc829722cd6c295e378b1953ed1 (HEAD -> master, origin/master, origin/HEAD)
+Author: igorletnikov <letnikov46@gmail.com>
+Date:   Sun Apr 12 15:59:49 2020 +0200
+
+    documentation added
+
+commit f78b01a4a906e16e3b808aee240facc46431b4bf (origin/courseFeature, courseFeature)
+Author: igorletnikov <letnikov46@gmail.com>
+Date:   Sun Apr 12 15:49:37 2020 +0200
+
+    updates changed
+
+commit 29b01699bf1e91ff1b5b553dc1ea9f53727737b0
+Author: igorletnikov <letnikov46@gmail.com>
+Date:   Sun Apr 12 15:32:06 2020 +0200
+
+    student class finished
+
+commit f41245a358688016369636083c74c3a28a2ea764
+Author: igorletnikov <letnikov46@gmail.com>
+Date:   Sun Apr 12 15:28:00 2020 +0200
+
+    lab points variable added
+
+commit 30d024ec9c81b4e6e48e83cd3e3483f1b34a5632
+Author: igorletnikov <63543579+igorletnikov@users.noreply.github.com>
+Date:   Sun Apr 12 15:26:04 2020 +0200
+
+    Delete Student.java
+
+commit e61ceb7d9e26fc2c8dfac3b8d6e75b9e0c886f1a
+Author: igorletnikov <letnikov46@gmail.com>
+Date:   Sun Apr 12 15:11:57 2020 +0200
+
+    grades list added
+
+commit 5de3291b1c2c1b8599d84f210242aa9e1671b011
+Author: igorletnikov <letnikov46@gmail.com>
+Date:   Sun Apr 12 14:59:36 2020 +0200
+
+    created students.csv
+
+commit 191bffb0a19af2310b07410e0d0c6a05ad393b88
+Author: igorletnikov <63543579+igorletnikov@users.noreply.github.com>
+Date:   Sun Apr 12 14:10:32 2020 +0200
+
+
+-Link: https://github.com/igorletnikov/SI_lab1_gr1_172060

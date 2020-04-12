@@ -1,0 +1,67 @@
+2.
+git clone https://github.com/finkiSI/SI_lab1_gr1
+cd ../SI_lab1_gr1_172060
+
+4.
+git remote remove origin
+git branch -a (proveruvame dali e izbrisano)
+
+
+5,6,7.
+git clone https://github.com/igorletnikov/SI_lab1_gr1_172060
+
+8.
+touch students.csv
+nano students.csv
+203114 Petar Stojanovski
+204532 Andrej Trajkovski
+203223 Ivana Ivanovska
+201234 Ivan Ristovski
+201026 Trajce Popovski
+
+9,10.
+git add students.csv
+git commit -m "created students.csv" (namesto “students.csv file added”)
+git push
+
+11,12.
+git add Students.java
+git commit -m  "lab points variable added"
+git push
+
+13,14.	
+git add Students.java
+git commit -m "student class finished"
+git push
+
+15.
+git branch courseFeature
+git checkout courseFeature
+
+16.
+touch Course.java
+nano Course.java
+
+17.
+nano students.csv
+
+18.
+git add .
+git commit -m "updates changed"
+git push --set-upstream origin courseFeature
+
+19.
+git merge courseFeature
+
+Updating 29b0169..f78b01a
+Fast-forward
+ Course.java  | 44 ++++++++++++++++++++++++++++++++++++++++++++
+ students.csv |  4 +++-
+ 2 files changed, 47 insertions(+), 1 deletion(-)
+ create mode 100644 Course.java
+
+20.
+touch info.txt
+git add info.txt
+git commit "documentation added"
+git push
